@@ -31,6 +31,10 @@ gitcreds_set()
 # RStudio First
 library(usethis)
 use_github()
+
+# S'il y a une erreur d'origine faire le code suivant en 
+# `usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)`
+
 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
 # ensuite 
 
