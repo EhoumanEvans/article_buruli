@@ -31,7 +31,7 @@ gitcreds_set()
 # RStudio First
 library(usethis)
 use_github()
-
+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
 # ensuite 
 
 # git remote add origin https://github.com/EhoumanEvans/article_buruli.git
