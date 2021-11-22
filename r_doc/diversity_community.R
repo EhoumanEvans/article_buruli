@@ -125,7 +125,9 @@ autoplot(DP)
 
 
 # Meta-community data
-load(file = "../data/dtf.art_rdt.RData")
+load(file = "../data/dtf_art.RData")
+
+load(file ="/Volumes/USER-1/Projets/GitHub/article_buruli/data/dtf_art.RData")
 
 # dtf.art
 # names(dtf.art)
