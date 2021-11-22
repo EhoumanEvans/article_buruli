@@ -1,0 +1,49 @@
+---
+title: "article_buruli_analyse"
+author: "Evans, E."
+date: "22/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Installer puis charger les packages
+```{r,  message=FALSE, echo=FALSE, include=FALSE}
+# install.packages("readxl")
+# install.packages("dplyr")
+# install.packages("plyr")
+# install.packages("tidyverse")
+# install.packages("ggplot2")
+# install.packages("ggplot2")
+# install.packages("vegan")
+# install.packages("labdsv")
+# install.packages("labdsv")
+# install.packages("data.table")
+# install.packages("writexl")
+# install.packages("kableExtra")
+
+library("readxl")
+library("dplyr")
+library("plyr")
+library("tidyverse")
+library("ggplot2")
+library("vegan")
+library("labdsv")
+library("data.table")
+library("writexl")
+library("kableExtra")
+```
+
+## Importer e visualiser le jeu de données
+```{r}
+# library(readxl)
+campagne <- read_excel("/Volumes/USER-1/Projets/GitHub/article_buruli_Ijerph/data/data_raw/floristic/campagne.xlsx") ## mettre son propre chemin d'accès
+# View(campagne)
+# library(dplyr) # pour avoir accès à la fonction glimpse
+glimpse(campagne) # description du jeu de données
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
