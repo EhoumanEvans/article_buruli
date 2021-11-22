@@ -1,6 +1,6 @@
 library("entropart")
 
-load("/Volumes/USER-1/Projets/GitHub/article_buruli_Ijerph/outputs/rmarkdown/buruliflora.RData")
+load("../data/buruliflora.RData")
 ls()
 
 
@@ -125,7 +125,7 @@ autoplot(DP)
 
 
 # Meta-community data
-load(file = "/Volumes/USER-1/Projets/GitHub/article_buruli_Ijerph/outputs/rmarkdown/dtf.art_rdt.RData")
+load(file = "../data/dtf.art_rdt.RData")
 
 # dtf.art
 # names(dtf.art)
