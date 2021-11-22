@@ -34,10 +34,10 @@ library("vegan")
 library("labdsv")
 library("data.table")
 library("writexl")
-library("kableExtra")
+# library("kableExtra")
 ```
 
-## Importer e visualiser le jeu de données
+## Importer te visualiser le jeu de données
 ```{r}
 # library(readxl)
 campagne <- read_excel("/Volumes/USER-1/Projets/GitHub/article_buruli_Ijerph/data/data_raw/floristic/campagne.xlsx") ## mettre son propre chemin d'accès
